@@ -1,0 +1,294 @@
+/*===universal setting*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*====header */
+.header{
+	width: 100%;
+
+/*	background-color: blue;*/
+}
+
+.container{
+
+	padding: 10px 0 10px 0;
+/*	background-color: green;*/
+	width: 80%;
+	display: flex;
+	margin: auto; /*set container to center */
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	
+}
+
+.container #logo{
+	font-size: 25px;
+	text-decoration: none;
+	padding: 15px 0px 10px 0px;
+	color: blueviolet;
+	font-family: 'Marko One';
+}
+
+.menu{
+/*	background-color: beige;*/
+	width: 60%;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size: 20px;
+}
+.fa-sharp{
+	margin-left: 5px;
+}
+.menu li #active{
+	color: black;
+	text-decoration: underline;
+}
+
+.fa-duotone{
+	color: green;
+}
+
+/*=========main section*/
+.main{
+	width: 100%;
+	height: 355px;
+	background-color: #fdf2e9 ;
+	position: relative;
+    z-index: -3;
+
+}
+.main-container{
+	height: 350px;
+	width: 60%;
+/*	background-color: green;*/
+	margin:auto;
+	display: flex;
+
+}
+.main-container .main-left{
+	width: 50%;
+/*	background-color: red;*/
+	margin: auto;
+}
+
+.main-container .main-right{
+	width: 50%;
+/*	background-color: blue;*/
+}
+
+.main-left #l1{
+	font-family: sans-serif;
+	font-size: 25px;
+}
+.main-left #l2{
+	font-family: 'Mokra';
+	font-size: 30px;
+	font-weight: 600;
+}
+.main-left #l3{
+	font-family: cursive;
+	font-size: 20px;
+}
+
+.main-right #bg-circle{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	border-radius: 50%;
+	height: 348px;
+	width: 348px;
+	background-image: linear-gradient(180deg,paleturquoise,lightgray,white);
+}
+
+.main-right{
+	position: relative;
+}
+.main-right #img{
+	width: 354px;
+	height: 354px;
+	margin-left:9px;
+	
+}
+
+
+/*============acheivements*/
+.acheivement {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+/*	background-color: blue;*/
+}
+.acheivement #header-title{
+	margin-top: 100px;
+	width: 100%;
+	text-decoration: underline;
+
+}
+.card-group{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.card-group .card{
+	height: 190px;
+	width: 190px;
+/*	background-color: green;*/
+	border-radius: 19px;
+	background-image: linear-gradient(145deg,gainsboro, white, palegreen);
+	box-shadow: 20px 20px 40px gray,-20px -20px 40px ghostwhite;
+}
+
+.about-me-group{
+
+	width: 60%;
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+
+}
+.about-me-group .header-title{
+	width: 100%;
+/*	background-color: blue;*/
+	margin-top: 60px;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+.aboutMe-text{
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-text{
+	font-size: 17px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+.about-btn{
+	width: 80%;
+/*	background-color: green;*/
+	display: flex;
+	margin: auto;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+#download-cv{
+	height: 70px;
+	width: 360px;
+	background-color: peru;
+	border: none;
+	border-radius: 50px;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#hire-me{
+	height: 70px;
+	width: 290px;
+	background-color: white;
+	border: none;
+	border-radius: 50px;
+	font-size: 25px;
+	color: peru;
+	font-weight: bold;
+	cursor: pointer;
+	border:1px solid peru;
+}
+
+#download-cv:hover{
+	box-shadow: 0 0 10px skyblue;
+}
+/*=============Blogs*/
+.blog-group {
+	width: 60%;
+	height: 700px;
+/*	background-color: green;*/
+	margin: auto;
+}
+.header-title{
+	margin-top: 100px;
+	text-decoration: underline;
+}
+
+.blog-post{
+	display: flex;
+/*	background-color: red;*/
+	width: 100%;
+	padding: 20px;
+}
+.blog-post .blog-card{
+	height: 280px;
+	width: 25%;
+	background-color: white;
+	border-radius: 20px;
+	background-color: gainsboro;
+
+}
+.blog-content{
+	margin-left: 20px;
+	width: 75%;
+}
+.blog-title{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.blog-text{
+	margin-top: 20px;
+	font-size: 25px;
+}
+.footer{
+	width: 70%;
+	margin:auto;
+	display: flex;
+	flex-direction: column;
+/*	background-color: red;*/
+}
+.social{
+	margin-top: 50px;
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+/*	align-items: center;*/
+}
+.fab{
+	font-size: 30px;
+}
+
+.fa-facebook{
+	color: blue;
+}
+.fa-youtube{
+	color: red;
+}
+
+.fa-telegram-plane{
+	color: #3498db;
+}
+
+#copyright{	
+	font-size: 24px;
+	margin:10px auto;
+}
+
+
